@@ -430,7 +430,7 @@ async def media_extracter(c: Client, m: Message):
             mid=rmess.id
             file_name = media.file_name
             if file_name is None:
-                await m.reply("File name not found; goto @Madflix_Bots")
+                await m.reply("File name not found; goto @zenupdatess")
                 return
             markup = bMaker.makebuttons(
                 set1=["Audio", "Subtitle", "Cancel"],
@@ -741,7 +741,7 @@ if __name__ == "__main__":
         with userBot:
             userBot.send_message(
                 chat_id=int(LOGCHANNEL),
-                text="Bot booted with Premium Account,\n\n  Thanks for using <a href='https://t.me/Madflix_Bots'>this channel</a>",
+                text="Bot booted with Premium Account,\n\n  Thanks for using <a href='https://t.me/zenupdatess'>this channel</a>",
                 disable_web_page_preview=True,
             )
             user = userBot.get_me()
