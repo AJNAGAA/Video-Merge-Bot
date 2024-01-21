@@ -488,13 +488,13 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻 Developer 👨‍💻", url="https://t.me/CallAdminRobot")],
+                [InlineKeyboardButton("👨‍💻 Developer 👨‍💻", url="https://t.me/ZencontBot")],
                 [
                     InlineKeyboardButton(
-                        "📢 Updates", url="https://t.me/Madflix_Bots"
+                        "📢 Updates", url="https://t.me/zenupdatess"
                     ),
                     InlineKeyboardButton(
-                        "🔥 Support", url="https://t.me/MadflixBots_Support"
+                        "🔥 Support", url="https://t.me/zenupdatess"
                     ),
                 ],
                 [InlineKeyboardButton("Close 🔐", callback_data="close")],
